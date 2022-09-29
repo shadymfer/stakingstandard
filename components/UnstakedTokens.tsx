@@ -2,7 +2,7 @@ import { ReceiptType } from '@cardinal/staking/dist/cjs/programs/stakePool'
 import { Tooltip } from '@mui/material'
 import { defaultSecondaryColor, TokenStandard } from 'api/mapping'
 import { contrastify } from 'common/colors'
-// import { LoadingSpinner } from 'common/LoadingSpinner'
+import { LoadingSpinner } from 'common/LoadingSpinner'
 import { notify } from 'common/Notification'
 import { RefreshButton } from 'common/RefreshButton'
 import { Toggle } from 'common/Toggle'
@@ -233,7 +233,7 @@ export const UnstakedTokens = () => {
         ) : (
           <div></div>
         )}
-        {/* <div className="flex gap-5">
+        <div className="flex gap-5">
           <Tooltip title="Click on tokens to select them">
             <button
               onClick={() => {
@@ -290,7 +290,7 @@ export const UnstakedTokens = () => {
               <span className="my-auto">Select All</span>
             </button>
           </Tooltip>
-        </div> */}
+        </div>
       </div>
     </div>
   )
