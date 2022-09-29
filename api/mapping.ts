@@ -111,7 +111,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     stakePoolAddress: new PublicKey(
       '29MgtLuX8ByGMZoreUoY7hsP2YY935gJ3wRB1fhiSF8o'
     ),
-    redirect: 'staking2x.theshadyclass.xyz',
+    hostname: 'https://staking2x.theshadyclass.xyz',
     hidden: false,
     notFound: false,
     imageUrl: 'https://raw.githubusercontent.com/flipthetip/test-tsc/main/newth.png',
@@ -139,7 +139,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     stakePoolAddress: new PublicKey(
       'zNt5nnEaL87rG9DT2cxvdVMf8sLBe6qEuZK8D5K4r9M'
     ),
-    redirect: 'staking2x.theshadyclass.xyz',
+    hostname: 'https://staking1x.theshadyclass.xyz',
     hidden: false,
     notFound: false,
     imageUrl: 'https://raw.githubusercontent.com/flipthetip/test-tsc/main/newth.png',
